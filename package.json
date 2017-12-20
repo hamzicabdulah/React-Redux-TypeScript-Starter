@@ -1,0 +1,38 @@
+{
+  "name": "react-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && npm run start:server",
+    "start:server": "ts-node .",
+    "dev:client": "webpack -wd",
+    "dev": "npm-run-all --parallel start:server dev:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzicabdulah/React-Redux-TypeScript-Starter.git"
+  },
+  "author": "Abdulah Hamzic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzicabdulah/React-Redux-TypeScript-Starter/issues"
+  },
+  "homepage": "https://github.com/hamzicabdulah/React-Redux-TypeScript-Starter#readme",
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-router-dom": "^4.2.3",
+    "npm-run-all": "^4.1.2",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-ts": "^2.1.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
